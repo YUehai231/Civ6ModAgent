@@ -1,0 +1,1926 @@
+{
+  "lua_functions": [
+    {
+      "name": "Locale.Lookup",
+      "arguments": "\"MY_TEXT_KEY\"",
+      "returns": "void",
+      "source": "LUA Reference"
+    },
+    {
+      "name": "HallofFame.GetRulesetTypes",
+      "arguments": "",
+      "returns": "ruleset_types:array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.SetRulesetType",
+      "arguments": "type:string, kind:string, name:string, [icon:string]",
+      "returns": "void",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.CreateObject",
+      "arguments": "type:string, [player_id:int], [name:string], [plot_index:int], [extra_data:string], [icon:string]",
+      "returns": "object_id:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetObjects",
+      "arguments": "[type:string]",
+      "returns": "objects:array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetCityObject",
+      "arguments": "[type:string]",
+      "returns": "objects:array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetPlayerObject",
+      "arguments": "playerId:int",
+      "returns": "objects:array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.FindDataPoint",
+      "arguments": "data_point:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetOrCreateDataPoint",
+      "arguments": "data_point:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetDataPoints",
+      "arguments": "[object_id:int],[type:string]",
+      "returns": "data_points:int_array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.SetDataPoint",
+      "arguments": "data_point:string, [object_id:int], [type:string], value:table",
+      "returns": "result:bool",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.UpdateDataPoint",
+      "arguments": "lookup_id:int, value:table",
+      "returns": "result:bool",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.LookupDataPoint",
+      "arguments": "lookup_id:int",
+      "returns": "result:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.FindDataSet",
+      "arguments": "data_set:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetOrCreateDataSet",
+      "arguments": "data_set:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetDataSets",
+      "arguments": "[object_id:int], [type:string]",
+      "returns": "result:int_array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetDataSetValue",
+      "arguments": "lookup_id:int, x:int",
+      "returns": "Y:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetLastDataSetValue",
+      "arguments": "lookup_id:int",
+      "returns": "X:int,Y:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.SetDataSetValue",
+      "arguments": "lookup_id:int, x:int, y:int",
+      "returns": "void",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.AdjustDataSetValue",
+      "arguments": "lookup_id:int, x:int, y:int",
+      "returns": "value:int",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.LookupDataSet",
+      "arguments": "lookup_id:int",
+      "returns": "result:table_array",
+      "source": "HallofFame_Backend"
+    },
+    {
+      "name": "HallofFame.GetRulesetTypes",
+      "arguments": "",
+      "returns": "ruleset_types:array",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.SetRulesetType",
+      "arguments": "type:string, kind:string, name:string, [icon:string]",
+      "returns": "void",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.CreateObject",
+      "arguments": "type:string, [player_id:int], [name:string], [plot_index:int], [extra_data:string], [icon:string]",
+      "returns": "object_id:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetObjects",
+      "arguments": "[type:string]",
+      "returns": "objects:array",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetCityObject",
+      "arguments": "[type:string]",
+      "returns": "objects:array",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetPlayerObject",
+      "arguments": "playerId:int",
+      "returns": "objects:array",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.FindDataPoint",
+      "arguments": "data_point:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetOrCreateDataPoint",
+      "arguments": "data_point:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetDataPoints",
+      "arguments": "[object_id:int],[type:string]",
+      "returns": "data_points:int_array",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.SetDataPoint",
+      "arguments": "data_point:string, [object_id:int], [type:string], value:table",
+      "returns": "result:bool",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.UpdateDataPoint",
+      "arguments": "lookup_id:int, value:table",
+      "returns": "result:bool",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.LookupDataPoint",
+      "arguments": "lookup_id:int",
+      "returns": "result:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.FindDataSet",
+      "arguments": "data_set:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetOrCreateDataSet",
+      "arguments": "data_set:string, [object_id:int], [type:string]",
+      "returns": "result:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetDataSets",
+      "arguments": "[object_id:int], [type:string]",
+      "returns": "result:int_array",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetDataSetValue",
+      "arguments": "lookup_id:int, x:int",
+      "returns": "Y:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.GetLastDataSetValue",
+      "arguments": "lookup_id:int",
+      "returns": "X:int,Y:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.SetDataSetValue",
+      "arguments": "lookup_id:int, x:int, y:int",
+      "returns": "void",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.AdjustDataSetValue",
+      "arguments": "lookup_id:int, x:int, y:int",
+      "returns": "value:int",
+      "source": "Hall of Fame (Back-end)"
+    },
+    {
+      "name": "HallofFame.LookupDataSet",
+      "arguments": "lookup_id:int",
+      "returns": "result:table_array",
+      "source": "Hall of Fame (Back-end)"
+    }
+  ],
+  "ui_controls": [
+    {
+      "control": "AlphaAnim",
+      "attributes": [
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetTexture",
+          "description": "bool"
+        },
+        {
+          "attribute": "SetTextureOffset",
+          "description": "void"
+        },
+        {
+          "attribute": "SetTextureOffsetVal",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSize",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSizeVal",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "Bar",
+      "attributes": [
+        {
+          "attribute": "FGColor",
+          "description": "String"
+        },
+        {
+          "attribute": "BGColor",
+          "description": "String"
+        },
+        {
+          "attribute": "Direction",
+          "description": "String"
+        },
+        {
+          "attribute": "Percent",
+          "description": "Number"
+        },
+        {
+          "attribute": "Speed",
+          "description": "Number"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetPercent",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetShadowPercent",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetAnimationSpeed",
+          "description": "**n/a**"
+        }
+      ]
+    },
+    {
+      "control": "Box",
+      "attributes": [
+        {
+          "attribute": "Color",
+          "description": "String"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetColor",
+          "description": "**n/a**"
+        }
+      ]
+    },
+    {
+      "control": "Button",
+      "attributes": [
+        {
+          "attribute": "Texture",
+          "description": "File to use for the texture"
+        },
+        {
+          "attribute": "TextureOffset",
+          "description": "Offset within the texture"
+        },
+        {
+          "attribute": "States",
+          "description": "(default 7) The number of states on a button. Valid values are 2,4,5,7, and 8. The states are: 1=up, 2=over, 3=down, 4=disabled, 5=selected, 6=selected over, 7=selected down, 8=8 selected disabled"
+        },
+        {
+          "attribute": "StateOffsetIncrement",
+          "description": "How far to offset the texture for state changes. If this is not specified, it is assumed to offset by the y-size of the control."
+        },
+        {
+          "attribute": "NoStateChange",
+          "description": "Flag that indicates that the texture should not be offset when state changes"
+        },
+        {
+          "attribute": "Sampler",
+          "description": "The sampler type to use to sample the texture. All images default to a point sampler, but we may specify \"Linear\" here if we want a non-point-sampled texture."
+        },
+        {
+          "attribute": "String",
+          "description": "Text to appear on the button."
+        },
+        {
+          "attribute": "ToolTip",
+          "description": "Tool tip string"
+        },
+        {
+          "attribute": "TextAnchor",
+          "description": "Anchoring flag for the text."
+        },
+        {
+          "attribute": "TextOffset",
+          "description": "X,Y offset value for the text."
+        },
+        {
+          "attribute": "Color",
+          "description": "RGB tint for the button."
+        },
+        {
+          "attribute": "DisabledCallbacks",
+          "description": "Triggers input callbacks when disabled."
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "ClearCallback",
+          "description": "void"
+        },
+        {
+          "attribute": "GetVoid1",
+          "description": "void"
+        },
+        {
+          "attribute": "GetVoid2",
+          "description": "void"
+        },
+        {
+          "attribute": "IsTrackingLeftMouseButton",
+          "description": "bool"
+        },
+        {
+          "attribute": "IsTrackingRightMouseButton",
+          "description": "bool"
+        },
+        {
+          "attribute": "IsTrackingMiddleMouseButton",
+          "description": "bool"
+        },
+        {
+          "attribute": "IsTrackingTouch",
+          "description": "bool"
+        },
+        {
+          "attribute": "RegisterCallback",
+          "description": "void"
+        },
+        {
+          "attribute": "ReceiveCallbacksIfDisabled",
+          "description": "void"
+        },
+        {
+          "attribute": "SetDisabled",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSelected",
+          "description": "void"
+        },
+        {
+          "attribute": "SetVoid1",
+          "description": "void"
+        },
+        {
+          "attribute": "SetVoid2",
+          "description": "void"
+        },
+        {
+          "attribute": "SetVoids",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "CheckBox",
+      "attributes": [
+        {
+          "attribute": "BoxOnLeft",
+          "description": "Replaces “**TextAnchor**”, if true places the box on the left of the text button, instead of to the right."
+        },
+        {
+          "attribute": "ButtonSize",
+          "description": "**Required** Size of the check button itself."
+        },
+        {
+          "attribute": "ButtonTexture",
+          "description": "**Required** Texture to use for the button"
+        },
+        {
+          "attribute": "CheckColor",
+          "description": "A color to tint the checked image."
+        },
+        {
+          "attribute": "CheckOffset",
+          "description": "Coordinate for positioning the check over the button."
+        },
+        {
+          "attribute": "CheckSize",
+          "description": "Size of the check texture."
+        },
+        {
+          "attribute": "CheckTexture",
+          "description": "Texture to use as the check mark."
+        },
+        {
+          "attribute": "CheckTextureOffset",
+          "description": "Offset into the check texture."
+        },
+        {
+          "attribute": "IsChecked",
+          "description": "Flag indicating the box should start checked"
+        },
+        {
+          "attribute": "String",
+          "description": "Set the label"
+        },
+        {
+          "attribute": "TextAnchor",
+          "description": "DEPRECATED Anchor flag for the TextButton"
+        },
+        {
+          "attribute": "TextButtonData",
+          "description": "All of the tags used for the TextButton control are used here to describe the text button portion of the check box"
+        },
+        {
+          "attribute": "TextOffset",
+          "description": "Offset of the TextButton portion from the check button"
+        },
+        {
+          "attribute": "UnCheckColor",
+          "description": "A color to tint the image used in the uncheck state"
+        },
+        {
+          "attribute": "UnCheckOffset",
+          "description": "Same as CheckOffset but for the UnCheckTexture"
+        },
+        {
+          "attribute": "UnCheckSize",
+          "description": "Same as CheckSize but for the UnCheckTexture"
+        },
+        {
+          "attribute": "UnCheckTexture",
+          "description": "A texture to show on top of the button when unchecked"
+        },
+        {
+          "attribute": "UnCheckTextureOffset",
+          "description": "Same as CheckTextureOffset but for the UnCheckTexture"
+        },
+        {
+          "attribute": "UseSelectedTextures",
+          "description": "The button of the checkbox has \"selected\" states (for normal, over, and down) which should be used when checked."
+        }
+      ]
+    },
+    {
+      "control": "Container",
+      "attributes": [
+        {
+          "attribute": "Attributed",
+          "description": "**Details**"
+        },
+        {
+          "attribute": "Alpha",
+          "description": "A 0-1 value used for the alpha for this control AND all of its children."
+        },
+        {
+          "attribute": "Anchor",
+          "description": "Where on its parent this control is attached."
+        },
+        {
+          "attribute": "AnchorSide",
+          "description": "Whether the control is attached to the Inside or Outside of its parent (in X and Y)."
+        },
+        {
+          "attribute": "AutoSize",
+          "description": "0, 1, V or H. If 1 control will completely autosize. If 0 it won't at all. If V will only autosize vertically. If H will only autosize horizontally. Autosizing is based on the total size of its children. This will only happen at load time. If the children are changing sizes, the programmer must call DoAutoSize() at runtime."
+        },
+        {
+          "attribute": "AutoSizePadding",
+          "description": "The amount of padding in X,Y to add when doing the AutoSize calculation. Formally “**Padding**”."
+        },
+        {
+          "attribute": "Color",
+          "description": "What color this control should be. The scale is 0-255, can include an alpha channel, and can use a named color. This is not used for all control types and only affects this control, not its children."
+        },
+        {
+          "attribute": "ConsumeAllMouse",
+          "description": "Flag to indicate that this control should consume all mouse events that happen while it is being moused-over."
+        },
+        {
+          "attribute": "ConsumeMouseButton",
+          "description": "Flag to indicate that this control should consume mouse button events that happen while it is being moused-over."
+        },
+        {
+          "attribute": "ConsumeMouseOver",
+          "description": "Flag to indicate that this control should consume mouse move events that happen while it is being moused-over."
+        },
+        {
+          "attribute": "ConsumeMouseWheel",
+          "description": "Flag to indicate that this control should consume mouse wheel events that happen while it is being moused-over."
+        },
+        {
+          "attribute": "d",
+          "description": "1-6, or \"*\" and an optional \"+\". Set debug flags. 1-6 will set a color. \"*\" will pick a random color. \"+\" will cascade to child controls. This attribute is purposely lowercase and a single letter so a author can add/remove quickly."
+        },
+        {
+          "attribute": "Disabled",
+          "description": "Flag to indicate that this control is disabled and should not get mouseover state or be clickable."
+        },
+        {
+          "attribute": "GlobalUpdate",
+          "description": "Programmer flag. Used to make controls receive update ticks even when invisible."
+        },
+        {
+          "attribute": "Hidden",
+          "description": "Whether this control (and all of its children) should be drawn."
+        },
+        {
+          "attribute": "HideOnMouseOver",
+          "description": "Flag to indicate that this control should only be visible when its parent is NOT being moused-over."
+        },
+        {
+          "attribute": "ID",
+          "description": "The controls name. Used by the programmer to work with this control at runtime. This value must be unique."
+        },
+        {
+          "attribute": "InnerOffset",
+          "description": "Used with AutoSize"
+        },
+        {
+          "attribute": "InnerPadding",
+          "description": "Used with AutoSize"
+        },
+        {
+          "attribute": "NeedsMouseOver",
+          "description": "Programmer flag. Indicates that the control needs mouse information."
+        },
+        {
+          "attribute": "NoClip",
+          "description": "Flag to indicate that this control is not affected when put inside of a scroll panel."
+        },
+        {
+          "attribute": "Offset",
+          "description": "How far away from the anchor point the control is."
+        },
+        {
+          "attribute": "ShowOnMouseOver",
+          "description": "Flag to indicate that this control should only be visible when its parent is being moused-over."
+        },
+        {
+          "attribute": "ShowOnMouseOut",
+          "description": "Similar to HideOnMouseOver but will not show the contents when first visible. Best utilized for mouse out animations."
+        },
+        {
+          "attribute": "Size",
+          "description": "The size on screen in pixels."
+        },
+        {
+          "attribute": "SizePadding",
+          "description": "Alt name for “**AutoSizePadding**” (see above)."
+        },
+        {
+          "attribute": "ToolTip",
+          "description": "Simple tooltip text string when mousing over this control."
+        },
+        {
+          "attribute": "ToolTipType",
+          "description": "Name of a complex tool tip type to use when mousing over this control."
+        },
+        {
+          "attribute": "TutorialActive",
+          "description": "This control, and its children, will show on top of the tutorial overlay and be responsive to input. Essentially, when a tutorial is on, this control continues to behave as it normally would."
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "(RegisterWhenClippedCallback)",
+          "description": "float"
+        },
+        {
+          "attribute": "SetColorByName",
+          "description": "void"
+        },
+        {
+          "attribute": "SetHide",
+          "description": "void"
+        },
+        {
+          "attribute": "SetOffsetVal",
+          "description": "void"
+        },
+        {
+          "attribute": "GetOffsetVal",
+          "description": "float x, float y"
+        },
+        {
+          "attribute": "SetSizeVal",
+          "description": "void"
+        },
+        {
+          "attribute": "GetSizeVal",
+          "description": "float x, float y"
+        },
+        {
+          "attribute": "SetAnchor",
+          "description": "void"
+        },
+        {
+          "attribute": "SetDisabled",
+          "description": "void"
+        },
+        {
+          "attribute": "SetHide",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSizeX",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSizeY",
+          "description": "void"
+        },
+        {
+          "attribute": "GetSizeX",
+          "description": "float"
+        },
+        {
+          "attribute": "GetSizeY",
+          "description": "float"
+        },
+        {
+          "attribute": "SetOffsetX",
+          "description": "void"
+        },
+        {
+          "attribute": "SetOffsetY",
+          "description": "void"
+        },
+        {
+          "attribute": "GetOffsetX",
+          "description": "float"
+        },
+        {
+          "attribute": "GetOffsetY",
+          "description": "float"
+        }
+      ]
+    },
+    {
+      "control": "Context",
+      "attributes": [
+        {
+          "attribute": "FileName",
+          "description": "Name of the xml file to load (without the .xml extension)"
+        },
+        {
+          "attribute": "Layer",
+          "description": "(optional) Name of what rendering layer to draw on. Typically a game engine will be setup with named layers such as \"Debug\" or \"Modal\". If the attribute is omitted, all contents will be rendered to the default rending layer."
+        }
+      ]
+    },
+    {
+      "control": "DragPanel",
+      "attributes": [
+        {
+          "attribute": "Horizontal",
+          "description": "(t/f, t default) Allow dragged scrolling in the horizontal axis."
+        },
+        {
+          "attribute": "Vertical",
+          "description": "(t/f, t default) Allow dragged scrolling in the vertical axis."
+        },
+        {
+          "attribute": "ZoomMax",
+          "description": "Maximum zoom value sent to control / LUA."
+        },
+        {
+          "attribute": "ZoomMin",
+          "description": "Minimum zoom value sent to control / LUA."
+        },
+        {
+          "attribute": "ZoomStep",
+          "description": "Increments of zooming via equivalent mouse wheel click."
+        }
+      ]
+    },
+    {
+      "control": "EditBox",
+      "attributes": [
+        {
+          "attribute": "CallOnChar",
+          "description": "Y"
+        },
+        {
+          "attribute": "ColorSet",
+          "description": "-"
+        },
+        {
+          "attribute": "CursorColor",
+          "description": "Y"
+        },
+        {
+          "attribute": "EditMode",
+          "description": "Y"
+        },
+        {
+          "attribute": "FocusStop",
+          "description": "Y"
+        },
+        {
+          "attribute": "Font",
+          "description": "-"
+        },
+        {
+          "attribute": "FontSize",
+          "description": "-"
+        },
+        {
+          "attribute": "FontStyle",
+          "description": "-"
+        },
+        {
+          "attribute": "HighlightColor",
+          "description": "Y"
+        },
+        {
+          "attribute": "KeepFocus",
+          "description": "Y"
+        },
+        {
+          "attribute": "MaxLength",
+          "description": "Y"
+        },
+        {
+          "attribute": "NumberInput",
+          "description": "Y"
+        },
+        {
+          "attribute": "Obscure",
+          "description": "Y"
+        },
+        {
+          "attribute": "HighlightOnFocus",
+          "description": "?"
+        }
+      ]
+    },
+    {
+      "control": "FlipAnim",
+      "attributes": [
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetFrame",
+          "description": "bool"
+        }
+      ]
+    },
+    {
+      "control": "Grid",
+      "attributes": [
+        {
+          "attribute": "NoStateChange",
+          "description": "Flag that indicates that the texture should not be offset when used as a button"
+        },
+        {
+          "attribute": "StateOffsetIncrement",
+          "description": "How far to offset the texture for state changes when used as a button"
+        },
+        {
+          "attribute": "Texture",
+          "description": "Filename of the texture to build the grid from"
+        },
+        {
+          "attribute": "SliceStart",
+          "description": "(optional) The x,y coordinates where a particular texture starts in an image sheet. If the entire image IS the texture, then this can be omitted. Default 0,0."
+        },
+        {
+          "attribute": "SliceCorner",
+          "description": "An x,y offset from the start of the texture where to begin the 9-slicing."
+        },
+        {
+          "attribute": "SliceSize",
+          "description": "Width and height of the actual 9 slice. (aka: Size of the center rectangle in the grid.) Default: 1,1."
+        },
+        {
+          "attribute": "SliceTextureSize",
+          "description": "The width and height of the image from the texture. If omitted, assumes cutting is symmetrical."
+        }
+      ]
+    },
+    {
+      "control": "GridButton",
+      "attributes": [
+        {
+          "attribute": "Color",
+          "description": "What color to set the grid vertices to use."
+        },
+        {
+          "attribute": "ColorSet",
+          "description": "Color set to utilize."
+        },
+        {
+          "attribute": "Font",
+          "description": "The name of the font to use for this control."
+        },
+        {
+          "attribute": "FontSize",
+          "description": "The point size of the font to use"
+        },
+        {
+          "attribute": "FontStyle",
+          "description": "The name of the font style to use. Valid styles are: **\"Shadow\", \"Glow\", \"Stroke\"**"
+        },
+        {
+          "attribute": "SelectedTextColor",
+          "description": "The color of text to use when in a \"selected\" state."
+        },
+        {
+          "attribute": "TextAnchor",
+          "description": "Anchoring within the grid. (Default is centered, e.g., “C,C”)."
+        },
+        {
+          "attribute": "TextColor",
+          "description": "Color to set the text, use to override the general \"Color\" tag that effects the button's vertices as well as the text color."
+        },
+        {
+          "attribute": "TextOffset",
+          "description": "Offset (in pixels) for the text."
+        },
+        {
+          "attribute": "String",
+          "description": "Contents of a text label. (Default is blank.)"
+        },
+        {
+          "attribute": "ToolTip",
+          "description": "Tool tip string"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "DoAutoSize",
+          "description": "void"
+        },
+        {
+          "attribute": "GetText",
+          "description": "bool"
+        },
+        {
+          "attribute": "GetTextControl",
+          "description": "bool"
+        },
+        {
+          "attribute": "LocalizeAndSetText",
+          "description": "bool"
+        },
+        {
+          "attribute": "SetSizeToText",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSizeVal",
+          "description": "void"
+        },
+        {
+          "attribute": "SetText",
+          "description": "void"
+        },
+        {
+          "attribute": "SetTextureOffset",
+          "description": "void"
+        },
+        {
+          "attribute": "SetTextureOffsetVal",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "Image",
+      "attributes": [
+        {
+          "attribute": "ColorSpace",
+          "description": "(default: \"**RGB\"**, \"Linear\") Set this to \"linear\" if rendering a linear texture onto the quad (e.g., using it as a Render Target)"
+        },
+        {
+          "attribute": "FlipX",
+          "description": "Horizontally flip the image"
+        },
+        {
+          "attribute": "FlipY",
+          "description": "Vertically flip the image"
+        },
+        {
+          "attribute": "Icon",
+          "description": "Calls the icon manager to obtain the icon specified."
+        },
+        {
+          "attribute": "IconSize",
+          "description": "Specifies the width and height of the icon."
+        },
+        {
+          "attribute": "MaskTexture",
+          "description": "The filename of a texture to use as an alpha mask."
+        },
+        {
+          "attribute": "MaskTextureOffset",
+          "description": "The x,y offset (in pixels) into the mask texture."
+        },
+        {
+          "attribute": "NormalizedQuad",
+          "description": "Programmer flag. Indicates that there is not a 1:1 ratio of pixels:texels"
+        },
+        {
+          "attribute": "Sampler",
+          "description": "Set this to \"Linear\" if you're scaling a block compressed image. It will try."
+        },
+        {
+          "attribute": "Rotate",
+          "description": "Rotate the texture on the quad (degrees) Note: In the current implementation, stretching will occur as the quad itself is not rotate."
+        },
+        {
+          "attribute": "Scale",
+          "description": "Uniformly scale up the texture by a multiplier. (e.g., “1.5” will scale it up 150%.)"
+        },
+        {
+          "attribute": "Size",
+          "description": "(Inherited from **Container**) Specify a size for this control; the texture will take up a portion (or all of it). This attribute is only ignored if the stretch mode is set to auto."
+        },
+        {
+          "attribute": "StretchMode",
+          "description": "How to stretch the texture; one of the following values: **None, Uniform, Fill, Tile, TileX, TileY, UniformToFill, Auto**"
+        },
+        {
+          "attribute": "Texture",
+          "description": "The filename of the texture to use."
+        },
+        {
+          "attribute": "TextureOffset",
+          "description": "The x,y offset (in pixels) into the texture for where to start drawing."
+        },
+        {
+          "attribute": "TextureOffsetUV",
+          "description": "The offset into the texture in UV coordinates."
+        },
+        {
+          "attribute": "TextureSizeUV",
+          "description": "The size in floating-point UV texture coordinates to make this."
+        }
+      ]
+    },
+    {
+      "control": "Label",
+      "attributes": [
+        {
+          "attribute": "Align",
+          "description": "How to align the lines of text: \"**left**\" \"**center**\" \"**right**\" - *Note: text will align based on the width of the longest text string (in the case of a paragraph) or based on the width of its parent control."
+        },
+        {
+          "attribute": "Color0",
+          "description": "Has same meaning as the base control’s “**Color**”. (Currently if you specify both in the same tag, Color0 will override Color)"
+        },
+        {
+          "attribute": "Color1",
+          "description": "DEPRECATED: See *EffectColor*"
+        },
+        {
+          "attribute": "Color2",
+          "description": "DEPRECATED: See GradientColor"
+        },
+        {
+          "attribute": "ColorSet",
+          "description": "The name of the color set to use."
+        },
+        {
+          "attribute": "EffectColor",
+          "description": "(optional) The secondary color used for FontStyles such as “**Stroke**”, “**Glow**”, and “**Shadow**”."
+        },
+        {
+          "attribute": "Font",
+          "description": "The name of the font to use for this control."
+        },
+        {
+          "attribute": "FontSize",
+          "description": "The point size of the font to use."
+        },
+        {
+          "attribute": "FontStyle",
+          "description": "The name of the font style to use. Valid styles are: \"**Shadow**\", \"**Glow**\", \"**Stroke**\""
+        },
+        {
+          "attribute": "GradientColor",
+          "description": "(optional) Gradient color to use at the bottom of the font."
+        },
+        {
+          "attribute": "LeadingOffset",
+          "description": "Leading offset from line to line."
+        },
+        {
+          "attribute": "ReduceWidth",
+          "description": "Shrink the FontSize until the string fits within this width. *NOT IMPLEMENTED*"
+        },
+        {
+          "attribute": "Rotation",
+          "description": "Number of degrees to rotate the text. Rotation pivot is from the left-bottom of the first glyph."
+        },
+        {
+          "attribute": "SmallCaps",
+          "description": "Size of font to use for the capitalization"
+        },
+        {
+          "attribute": "SmallCapsLeading",
+          "description": "Amount of leading to add to the non-small caps letters."
+        },
+        {
+          "attribute": "SmallCapsType",
+          "description": "How to apply small caps, either: \"**EveryWord**\" (default) or \"**FirstOnly**\""
+        },
+        {
+          "attribute": "String",
+          "description": "Control text."
+        },
+        {
+          "attribute": "TruncateWidth",
+          "description": "The width (in pixels) to cut the string off."
+        },
+        {
+          "attribute": "WrapWidth",
+          "description": "The width (in pixels) to start wrapping to the next line."
+        },
+        {
+          "attribute": "Color0",
+          "description": "Top gradient"
+        },
+        {
+          "attribute": "Color1",
+          "description": "Color of shadow, stroke, or glow"
+        },
+        {
+          "attribute": "Color2",
+          "description": "Bottom gradient"
+        },
+        {
+          "attribute": "![Machine generated alternative text: I’m excited for the new super troopers movie. I’m excited for the new super troopers movie. I’m excited for the new super troopers movie. I’m excited for the new super troopers movie. I’m excited for the new super troopers movie. I’m excited for the new super troopers movie.](../Forge UI\\Controls\\Label/media/image3.png)",
+          "description": "<Box Size=\"200,50\" Color=\"99,88,77\"> <Label String=\"I'm excited for the new super troopers movie.\" Size=\"parent,100\" debug=\"1\" /> </Box> <Box Size=\"200,50\" Color=\"99,88,77\" Offset=\"0,60\"> <Label String=\"I'm excited for the new super troopers movie.\" Size=\"200,100\" debug=\"1\" /> </Box> <Box Size=\"200,50\" Color=\"99,88,77\" Offset=\"0,120\"> <Label String=\"I'm excited for the new super troopers movie.\" debug=\"1\" /> </Box> <Box Size=\"200,50\" Color=\"99,88,77\" Offset=\"0,180\"> <Label String=\"I'm excited for the new super troopers movie.\" WrapWidth=\"200\" debug=\"1\" /> </Box> <Box Size=\"200,50\" Color=\"99,88,77\" Offset=\"0,240\"> <Label String=\"I'm excited for the new super troopers movie.\" WrapWidth=\"parent\" debug=\"1\" /> </Box> <Box Size=\"200,50\" Color=\"99,88,77\" Offset=\"0,300\"> <Label String=\"I'm excited for the new super troopers movie.\" Size=\"parent,100\" WrapWidth=\"parent\" debug=\"1\" /> </Box>"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetColor",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetColorByName",
+          "description": "**n/a**"
+        }
+      ]
+    },
+    {
+      "control": "Line",
+      "attributes": [
+        {
+          "attribute": "Color",
+          "description": "RGBA for the color and alpha of line."
+        },
+        {
+          "attribute": "End",
+          "description": "Ending point for the line."
+        },
+        {
+          "attribute": "Start",
+          "description": "Starting point for the line."
+        },
+        {
+          "attribute": "Width",
+          "description": "Thickness of the line."
+        }
+      ]
+    },
+    {
+      "control": "LuaContext",
+      "attributes": [
+        {
+          "attribute": "FileName",
+          "description": "Name of the xml file to load (without the .xml extension)"
+        },
+        {
+          "attribute": "ID",
+          "description": "(optional) An identifier for the LUA context"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "BuildInstance",
+          "description": "nil"
+        },
+        {
+          "attribute": "BuildInstanceForControl( name, outTable, parent)",
+          "description": "nil"
+        },
+        {
+          "attribute": "BuildInstanceForControlAtIndex( )",
+          "description": "nil"
+        },
+        {
+          "attribute": "CallParentShowHideHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "ClearRefreshHandler( )",
+          "description": "nil"
+        },
+        {
+          "attribute": "ClearRequestRefresh( )",
+          "description": "nil"
+        },
+        {
+          "attribute": "ClearUpdate( )",
+          "description": "nil"
+        },
+        {
+          "attribute": "IsHotLoad",
+          "description": "bool"
+        },
+        {
+          "attribute": "LoadNewContext( nameAndPath )",
+          "description": "nil"
+        },
+        {
+          "attribute": "Reload( )",
+          "description": "nil"
+        },
+        {
+          "attribute": "RequestRefresh( )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetAppLostFocusHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetAppRegainedFocusHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetHideHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetInitHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetInputHandler( func, isUsingStruct )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetPostInit( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetRefreshHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetShowHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetShowHideHandler( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetShutdown( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "SetUpdate( func )",
+          "description": "nil"
+        },
+        {
+          "attribute": "UnifyClickAndTap( isUnified )",
+          "description": "nil"
+        }
+      ]
+    },
+    {
+      "control": "Meter",
+      "attributes": [
+        {
+          "attribute": "Color",
+          "description": "String"
+        },
+        {
+          "attribute": "CounterClockwise",
+          "description": "Bool"
+        },
+        {
+          "attribute": "Follow",
+          "description": "Bool"
+        },
+        {
+          "attribute": "HasShadow",
+          "description": "Bool"
+        },
+        {
+          "attribute": "Percent",
+          "description": "Number"
+        },
+        {
+          "attribute": "ShadowAlpha",
+          "description": "Number"
+        },
+        {
+          "attribute": "Speed",
+          "description": "Number"
+        },
+        {
+          "attribute": "Texture",
+          "description": "String"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetAnimationSpeed",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetCounterClockwise",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetFollow",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetPercent",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetPercents",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetShadowColor",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetShadowPercent",
+          "description": "**n/a**"
+        }
+      ]
+    },
+    {
+      "control": "Movie",
+      "attributes": [
+        {
+          "attribute": "FlipX",
+          "description": "Horizontally flip the image"
+        },
+        {
+          "attribute": "FlipY",
+          "description": "Vertically flip the image"
+        },
+        {
+          "attribute": "LoopMovie",
+          "description": "If a Movie is specified, repeat the playing movie after it is done playing."
+        },
+        {
+          "attribute": "LoopMoviemask",
+          "description": "If a MovieMask is specified, repeat playing the movie after it is done playing."
+        },
+        {
+          "attribute": "MaskTexture",
+          "description": "The filename of a texture to use as an alpha mask."
+        },
+        {
+          "attribute": "MaskTextureOffset",
+          "description": "The x,y offset (in pixels) into the mask texture."
+        },
+        {
+          "attribute": "Movie",
+          "description": "A BINK (or other supported movie) to display in the image area."
+        },
+        {
+          "attribute": "MovieMask",
+          "description": "A BINK (or other supported movie) to mask the displayed image. (A moviemask can be used to mask a movie!)"
+        },
+        {
+          "attribute": "NormalizedQuad",
+          "description": "Programmer flag. Indicates that there is not a 1:1 ratio of pixels:texels"
+        },
+        {
+          "attribute": "PointSample",
+          "description": "All images default to a point sampler, but if **False** then a linear sampling will be used instead."
+        },
+        {
+          "attribute": "Rotate",
+          "description": "Rotate the texture on the quad (degrees) Note: In the current implementation, stretching will occur as the quad itself is not rotate."
+        },
+        {
+          "attribute": "Scale",
+          "description": "Uniformly scale up the texture by a multiplier. (e.g., “1.5” will scale it up 150%.)"
+        },
+        {
+          "attribute": "StretchMode",
+          "description": "How to stretch the texture; one of the following values: **None**, **Uniform**, **Fill**, **Tile**, or **UniformToFill**"
+        },
+        {
+          "attribute": "Texture",
+          "description": "The filename of the texture to use."
+        },
+        {
+          "attribute": "TextureOffset",
+          "description": "The x,y offset (in pixels) into the texture for where to start drawing."
+        },
+        {
+          "attribute": "TextureOffsetUV",
+          "description": "The offset into the texture in UV coordinates."
+        },
+        {
+          "attribute": "TextureSizeUV",
+          "description": "The size in floating-point UV texture coordinates to make this."
+        }
+      ]
+    },
+    {
+      "control": "PullDown",
+      "attributes": [
+        {
+          "attribute": "AutoFlip",
+          "description": "Automatically flips the grid of the pulldown to be above the button, if it is rendered off the bottom of the window/screen area."
+        },
+        {
+          "attribute": "AutoSizePopUp",
+          "description": "Flag indicating that the grid should be automatically sized to however many buttons are inside the pulldown."
+        },
+        {
+          "attribute": "SpaceForScroll",
+          "description": "Flag indicating that the grid should reserve some internal space for the scroll bar."
+        },
+        {
+          "attribute": "ScrollThreshold",
+          "description": "How large to allow the grid to grow before adding a scroll bar to the list."
+        },
+        {
+          "attribute": "Child Tag",
+          "description": "**Details**"
+        },
+        {
+          "attribute": "<ButtonData>",
+          "description": "Sub-Control defining the button which opens the pull-down. Some type of **<Button>** should exist immediately within it."
+        },
+        {
+          "attribute": "<GridData>",
+          "description": "(Optional) Defines the formatting grid used behind the controls when the pull-down is open."
+        },
+        {
+          "attribute": "<ScrollPanelData>",
+          "description": "(Optional) A scroll panel which contains the sub-buttons when the pull-down is open."
+        },
+        {
+          "attribute": "<StackData>",
+          "description": "The stack which contains the sub-buttons when the pull-down is open (mostly useful for changing the stack padding)."
+        },
+        {
+          "attribute": "<InstanceData>",
+          "description": "Template for what the sub-buttons will look like when the pull-down is in an open state."
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "BuildEntry",
+          "description": "Add an entry."
+        },
+        {
+          "attribute": "CalcuateInternals",
+          "description": "void"
+        },
+        {
+          "attribute": "ClearEntries",
+          "description": "Remove all entries"
+        },
+        {
+          "attribute": "ForceClose",
+          "description": "void"
+        },
+        {
+          "attribute": "GetButton",
+          "description": "Button"
+        },
+        {
+          "attribute": "GetGrid",
+          "description": "Grid"
+        },
+        {
+          "attribute": "GetScrollPanel",
+          "description": "ScrollPanel"
+        },
+        {
+          "attribute": "GetStack",
+          "description": "Stack"
+        },
+        {
+          "attribute": "IsOffBottom",
+          "description": "bool"
+        },
+        {
+          "attribute": "IsOpen",
+          "description": "bool"
+        },
+        {
+          "attribute": "RegisterSelectionCallback",
+          "description": "function"
+        },
+        {
+          "attribute": "SetDisabled",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "RadioButton",
+      "attributes": [
+        {
+          "attribute": "RadioGroup",
+          "description": "Name of the mutually exclusive group of radio buttons"
+        },
+        {
+          "attribute": "BoxOnLeft",
+          "description": "N"
+        },
+        {
+          "attribute": "ButtonSize",
+          "description": "Y"
+        },
+        {
+          "attribute": "ButtonTexture",
+          "description": "Y"
+        },
+        {
+          "attribute": "CheckOffset",
+          "description": "Y"
+        },
+        {
+          "attribute": "CheckSize",
+          "description": "Y"
+        },
+        {
+          "attribute": "CheckTexture",
+          "description": "Y"
+        },
+        {
+          "attribute": "CheckTextureOffset",
+          "description": "Y"
+        },
+        {
+          "attribute": "IsChecked",
+          "description": "Y"
+        },
+        {
+          "attribute": "String",
+          "description": "Y"
+        },
+        {
+          "attribute": "TextAnchor",
+          "description": "Y"
+        },
+        {
+          "attribute": "TextAnchorSide",
+          "description": "D"
+        },
+        {
+          "attribute": "TextButtonData",
+          "description": "Y"
+        },
+        {
+          "attribute": "TextOffset",
+          "description": "Y"
+        }
+      ]
+    },
+    {
+      "control": "ScrollAnim",
+      "attributes": [
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetTexture",
+          "description": "bool"
+        },
+        {
+          "attribute": "SetMask",
+          "description": "bool"
+        },
+        {
+          "attribute": "SetTextureAndMask",
+          "description": "bool"
+        }
+      ]
+    },
+    {
+      "control": "ScrollPanel",
+      "attributes": [
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "CalculateSize",
+          "description": "**void**"
+        },
+        {
+          "attribute": "CalculateInternalSize",
+          "description": "**void**"
+        },
+        {
+          "attribute": "GetScrollValue",
+          "description": "float"
+        },
+        {
+          "attribute": "SetScrollValue",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "SimplePullDown",
+      "attributes": [
+        {
+          "attribute": "EntryInstance",
+          "description": "The ID of the instance to use for building entries"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetEntries",
+          "description": "void"
+        },
+        {
+          "attribute": "ClearEntries",
+          "description": "void"
+        },
+        {
+          "attribute": "SetSelectedIndex",
+          "description": "void"
+        },
+        {
+          "attribute": "GetSelectedIndex",
+          "description": "uint"
+        },
+        {
+          "attribute": "GetSelectedEntry",
+          "description": "Table"
+        },
+        {
+          "attribute": "SetEntrySelectedCallback",
+          "description": "void"
+        },
+        {
+          "attribute": "CalcuateInternals",
+          "description": "void"
+        },
+        {
+          "attribute": "ClearEntries",
+          "description": "Remove all entries"
+        },
+        {
+          "attribute": "ForceClose",
+          "description": "void"
+        },
+        {
+          "attribute": "GetButton",
+          "description": "Button"
+        },
+        {
+          "attribute": "GetGrid",
+          "description": "Grid"
+        },
+        {
+          "attribute": "GetScrollPanel",
+          "description": "ScrollPanel"
+        },
+        {
+          "attribute": "GetStack",
+          "description": "Stack"
+        },
+        {
+          "attribute": "IsOffBottom",
+          "description": "bool"
+        },
+        {
+          "attribute": "IsOpen",
+          "description": "bool"
+        },
+        {
+          "attribute": "SetDisabled",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "SlideAnim",
+      "attributes": [
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetBeginVal",
+          "description": "n/a"
+        },
+        {
+          "attribute": "SetEndVal",
+          "description": "n/a"
+        },
+        {
+          "attribute": "SetRealiveEndVal",
+          "description": "n/a"
+        }
+      ]
+    },
+    {
+      "control": "Stack",
+      "attributes": [
+        {
+          "attribute": "Padding",
+          "description": "Deprecated: See “StackPadding”"
+        },
+        {
+          "attribute": "StackGrowth",
+          "description": "Direction the stack grows in: \"Bottom\" \"Down\" \"Top\" \"Up\" \"Left\" \"Right\""
+        },
+        {
+          "attribute": "StackPadding",
+          "description": "Number of pixels to insert in between child elements. (Formally: “Padding”)"
+        },
+        {
+          "attribute": "WrapGrowth",
+          "description": "How items that exceed the wrap width will continue to stack."
+        },
+        {
+          "attribute": "WrapWidth",
+          "description": "How far (wide or tall, depending on stack growth) items can be put into the stack before subsequent items are “wrapped”."
+        }
+      ]
+    },
+    {
+      "control": "TabControl",
+      "attributes": [
+        {
+          "attribute": "TabContainer",
+          "description": "The ID of the control that contains the tab pages. The default value is \"TabContainer\". All children of this control will be considered tab pages. Tab pages can be any kind of control. The pages will be shown and hidden as they are selected. The tab pages will be referred to by their IDs."
+        },
+        {
+          "attribute": "TabButtons",
+          "description": "The ID of the control that contains the tab buttons. The default value is \"TabButtons\". Any button within the control tree underneath this control that has an ID that starts with \"SelectTab_\" will be considered a tab button. It can be any kind of button control. The tab button IDs should be in the format \"SelectTab_<tab page ID>\". The functionality of the buttons will be handled automatically by the TabControl. Buttons will be in the \"selected\" state when their corresponding tab page is selected. Tab buttons are not necessary if you just want to change the selected tab from lua."
+        },
+        {
+          "attribute": "SelectedTab",
+          "description": "The ID of the initial selected tab page. If this attribute is not used the first tab page will be selected by default."
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SelectTab",
+          "description": "void"
+        },
+        {
+          "attribute": "SelectTabByID",
+          "description": "void"
+        },
+        {
+          "attribute": "GetSelectedTab",
+          "description": "ControlBase*"
+        },
+        {
+          "attribute": "GetSelectedTabID",
+          "description": "string"
+        },
+        {
+          "attribute": "SetTabSelectedCallback",
+          "description": "void"
+        }
+      ]
+    },
+    {
+      "control": "TextButton",
+      "attributes": [
+        {
+          "attribute": "Style",
+          "description": "The style of the button to use in the normal state. This style is not applied to the text button in its other states!"
+        },
+        {
+          "attribute": "MouseOverStyle",
+          "description": "Style to use for MouseOver"
+        },
+        {
+          "attribute": "ButtonDownStyle",
+          "description": "The style to use for when the button is “pressed” Down"
+        },
+        {
+          "attribute": "DisabledStyle",
+          "description": "The style to use for Disabled."
+        },
+        {
+          "attribute": "Font",
+          "description": "Name of the font to use for this control."
+        },
+        {
+          "attribute": "FontSize",
+          "description": "Point size of the font to use."
+        },
+        {
+          "attribute": "FontStyle",
+          "description": "Style (“**stroke**”, “**shadow**”, “**glow**”) of the font to use in its normal state."
+        },
+        {
+          "attribute": "String",
+          "description": "Text to use as the button"
+        },
+        {
+          "attribute": "ButtonDownColor",
+          "description": "**DEPRECATED:** The ColorSet to use when in the “pressed” Down state."
+        },
+        {
+          "attribute": "DisabledColor",
+          "description": "**DEPRECATED:** The ColorSet to use when Disabled"
+        },
+        {
+          "attribute": "MouseOverColor",
+          "description": "**DEPRECATED**: ColorSet to use for MouseOver"
+        },
+        {
+          "attribute": "NormalColor",
+          "description": "**DEPRECATED:** ColorSet to use normally"
+        }
+      ]
+    },
+    {
+      "control": "TextureBar",
+      "attributes": [
+        {
+          "attribute": "Color",
+          "description": "String"
+        },
+        {
+          "attribute": "Direction",
+          "description": "String"
+        },
+        {
+          "attribute": "Percent",
+          "description": "Number"
+        },
+        {
+          "attribute": "Sampler",
+          "description": "String"
+        },
+        {
+          "attribute": "ShadowColor",
+          "description": "Number"
+        },
+        {
+          "attribute": "Speed",
+          "description": "Number"
+        },
+        {
+          "attribute": "Texture",
+          "description": "String"
+        },
+        {
+          "attribute": "TextureOffset",
+          "description": "String"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetPercent",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetShadowPercent",
+          "description": "**n/a**"
+        },
+        {
+          "attribute": "SetAnimationSpeed",
+          "description": "**n/a**"
+        }
+      ]
+    },
+    {
+      "control": "ToolTipType",
+      "attributes": [
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        },
+        {
+          "attribute": "SetToolTipCallback()",
+          "description": "nil"
+        }
+      ]
+    },
+    {
+      "control": "Tutorial",
+      "attributes": [
+        {
+          "attribute": "AlwaysShow",
+          "description": "Bool"
+        },
+        {
+          "attribute": "ID",
+          "description": "String"
+        },
+        {
+          "attribute": "TriggerBy",
+          "description": "String"
+        },
+        {
+          "attribute": "Function",
+          "description": "**Returns**"
+        }
+      ]
+    }
+  ]
+}

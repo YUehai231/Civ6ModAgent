@@ -1,0 +1,1483 @@
+{
+  "total_topics": 93,
+  "categories": [
+    "Content Creation Basics",
+    "FireFX",
+    "Forge UI",
+    "Forge UI Controls",
+    "Modding Guides",
+    "General Info"
+  ],
+  "topics": [
+    {
+      "id": "content_creation_basics_animation",
+      "title": "Animation",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_animation.md",
+      "summary": "Animation . anm Animations consist of animation track information for one or more bones.",
+      "keywords": [
+        "animation",
+        "content",
+        "creation",
+        "basics"
+      ]
+    },
+    {
+      "id": "content_creation_basics_artdeffiles",
+      "title": "ArtDefFiles",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_artdeffiles.md",
+      "summary": "Working with ArtDef Files ArtDef files are XML files that tell the engine how to use assets and entities packaged in BLP files.  ArtDef files reference XLP entries and add meta information needed b...",
+      "keywords": [
+        "artdeffiles",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "blp",
+        "xlp",
+        "xml",
+        "reference"
+      ]
+    },
+    {
+      "id": "content_creation_basics_buildingsprocess",
+      "title": "BuildingsProcess",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_buildingsprocess.md",
+      "summary": "Concept Process Monday, July 13, 2015 1:23 PM Steps 1.  Talk with Design, or make sure you understand the design purpose of the structure.",
+      "keywords": [
+        "buildingsprocess",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "xlp",
+        "lua",
+        "xml",
+        "animation",
+        "texture",
+        "emitter",
+        "screen",
+        "icon",
+        "control",
+        "layout",
+        "reference"
+      ]
+    },
+    {
+      "id": "content_creation_basics_colorkey",
+      "title": "ColorKey",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_colorkey.md",
+      "summary": "Color Keys ColorKeys are not technically Assets, they are just loose entities specifically textures that are used by the game directly.  Viewing Color Keys in Game We now apply a color key to the w...",
+      "keywords": [
+        "colorkey",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "xlp",
+        "texture",
+        "screen"
+      ]
+    },
+    {
+      "id": "content_creation_basics_datadocumentation",
+      "title": "DataDocumentation",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_datadocumentation.md",
+      "summary": "Data documentation Madrid Exported on Feb 08, 2019 Modders and your coworkers need help understanding how our data works.  Please go through the following list and write something about each class ...",
+      "keywords": [
+        "datadocumentation",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "blp",
+        "xlp",
+        "xml",
+        "animation",
+        "texture",
+        "screen",
+        "icon",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "content_creation_basics_geometry",
+      "title": "Geometry",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_geometry.md",
+      "summary": "Geometry . geo Geometry files contain the 3D data used for units, buildings, leaders, etc.",
+      "keywords": [
+        "geometry",
+        "content",
+        "creation",
+        "basics"
+      ]
+    },
+    {
+      "id": "content_creation_basics_iconxml",
+      "title": "IconXML",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_iconxml.md",
+      "summary": "<h1 id=\"iconpackagesandiconxmlcreation\">Icon Packages and Icon XML Creation</h1> Adding icons is a multistep process, certain steps can be skipped if a project or icon files have been setup.  Steps...",
+      "keywords": [
+        "iconxml",
+        "content",
+        "creation",
+        "basics",
+        "xlp",
+        "xml",
+        "texture",
+        "icon",
+        "control"
+      ]
+    },
+    {
+      "id": "content_creation_basics_iteration",
+      "title": "Iteration",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_iteration.md",
+      "summary": "Iterating on an Entity Once you've imported an entity into the Asset cloud, there are a few ways of updating it if you make changes to the original source file File Watches Whenever you open an ent...",
+      "keywords": [
+        "iteration",
+        "content",
+        "creation",
+        "basics",
+        "xlp",
+        "animation",
+        "reference"
+      ]
+    },
+    {
+      "id": "content_creation_basics_mappingtogamecore",
+      "title": "MappingToGameCore",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_mappingtogamecore.md",
+      "summary": "Mapping GameCore IDs to ArtDef Entries GameCore uses database IDs row numbers to reference features, resources, improvements, districts, buildings, and units.  So when the player builds something G...",
+      "keywords": [
+        "mappingtogamecore",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "xml",
+        "reference"
+      ]
+    },
+    {
+      "id": "content_creation_basics_packagingassets",
+      "title": "PackagingAssets",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_packagingassets.md",
+      "summary": "Packaging Assets Once you have created an asset or freestanding entity, e. g.",
+      "keywords": [
+        "packagingassets",
+        "content",
+        "creation",
+        "basics",
+        "blp",
+        "xlp",
+        "modbuddy",
+        "xml",
+        "texture"
+      ]
+    },
+    {
+      "id": "content_creation_basics_particleeffects",
+      "title": "ParticleEffects",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_particleeffects.md",
+      "summary": "Particle Effects . ptl Thursday, April 09, 2015 3:14 PM Particle effects consist of the barebones data that is used by Fork to simulate the procedural animation of a particle system.",
+      "keywords": [
+        "particleeffects",
+        "content",
+        "creation",
+        "basics",
+        "animation",
+        "texture"
+      ]
+    },
+    {
+      "id": "content_creation_basics_particleeffectsworkflow",
+      "title": "ParticleEffectsWorkflow",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_particleeffectsworkflow.md",
+      "summary": "Simplified Particle workflow Monday, September 14, 2015 1:49 PM Since Particle effect Assets are fairly straight forward, the process of creating one will probably the same Until you start doing mo...",
+      "keywords": [
+        "particleeffectsworkflow",
+        "content",
+        "creation",
+        "basics",
+        "xlp",
+        "firetuner",
+        "animation",
+        "texture"
+      ]
+    },
+    {
+      "id": "content_creation_basics_terrainbouncelighting",
+      "title": "TerrainBounceLighting",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_terrainbouncelighting.md",
+      "summary": "<h1 id=\"terrainbouncelighting\">Terrain Bounce Lighting</h1> Overview /download/attachments/59081138/image20151019%2011%3A42%3A24. png?",
+      "keywords": [
+        "terrainbouncelighting",
+        "content",
+        "creation",
+        "basics",
+        "artdef"
+      ]
+    },
+    {
+      "id": "content_creation_basics_terrainoverview",
+      "title": "TerrainOverview",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_terrainoverview.md",
+      "summary": "Terrain Overview Madrid Exported on Jun 30, 2017 The Strategic View uses a modified version of offset blending to render most of its terrainbased elements i. e.",
+      "keywords": [
+        "terrainoverview",
+        "content",
+        "creation",
+        "basics",
+        "blp",
+        "texture"
+      ]
+    },
+    {
+      "id": "content_creation_basics_texture",
+      "title": "Texture",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_texture.md",
+      "summary": "Texture . tex Texture are the entities that represent pixel data, these are used for the different maps in a material, or they can be used for UI, or as sprites in the strategic view layer.",
+      "keywords": [
+        "texture",
+        "content",
+        "creation",
+        "basics"
+      ]
+    },
+    {
+      "id": "content_creation_basics_textureexportsettings",
+      "title": "TextureExportSettings",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_textureexportsettings.md",
+      "summary": "Texture Export Settings Thursday, April 09, 2015 12:19 PM Pixel Format: This is the actual Texture data format that will get exported and used in the engine.  This is decided by the engineer that d...",
+      "keywords": [
+        "textureexportsettings",
+        "content",
+        "creation",
+        "basics",
+        "texture"
+      ]
+    },
+    {
+      "id": "content_creation_basics_the_life_of_a_leader",
+      "title": "The Life of a Leader",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_the_life_of_a_leader.md",
+      "summary": "/The Life of a Leader/media/image1. png Leaders make up arguably the most expensive aspects of Civ VI.",
+      "keywords": [
+        "life",
+        "leader",
+        "content",
+        "creation",
+        "basics",
+        "lua",
+        "animation",
+        "texture",
+        "screen",
+        "control",
+        "layout",
+        "reference"
+      ]
+    },
+    {
+      "id": "content_creation_basics_tilebase",
+      "title": "TileBase",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_tilebase.md",
+      "summary": "Tile Base Monday, March 30, 2015 3:54 PM The Tilebases in Civ 6 have a pretty complex pipeline in order to support the procedural building placement, as well as model and material sharing.  Each Ti...",
+      "keywords": [
+        "tilebase",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "blp",
+        "xlp",
+        "animation"
+      ]
+    },
+    {
+      "id": "content_creation_basics_unitpreviewingscript",
+      "title": "UnitPreviewingScript",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_unitpreviewingscript.md",
+      "summary": "<h1 id=\"civ6unitpreviewingscript\">Civ 6 Unit Previewing Script</h1> This is how to load a Unit from the game with Culture Variants and props into the Asset Editor From the asset Editor Top Menus se...",
+      "keywords": [
+        "unitpreviewingscript",
+        "content",
+        "creation",
+        "basics",
+        "artdef",
+        "animation"
+      ]
+    },
+    {
+      "id": "content_creation_basics_world_builder",
+      "title": "World Builder",
+      "category": "Content Creation Basics",
+      "file_path": "topics/content_creation_basics_world_builder.md",
+      "summary": "scrollexternal\\attachments\\image201866155519806c77b8608b72aed5a3181a425630c744adee755cf1dbce003a6f7396c1ec69. png..",
+      "keywords": [
+        "world",
+        "builder",
+        "content",
+        "creation",
+        "basics",
+        "xml",
+        "screen"
+      ]
+    },
+    {
+      "id": "firefx_emitter_properties",
+      "title": "Emitter Properties",
+      "category": "FireFX",
+      "file_path": "topics/firefx_emitter_properties.md",
+      "summary": "<h1 id=\"emitterproperties\">Emitter Properties</h1> These are all the emitter properties that can be assigned to a given emitter.  This properties must be defined at compile time they cannot be chan...",
+      "keywords": [
+        "emitter",
+        "properties",
+        "firefx",
+        "texture"
+      ]
+    },
+    {
+      "id": "firefx_firefx_ui_backend",
+      "title": "FireFX UI Backend",
+      "category": "FireFX",
+      "file_path": "topics/firefx_firefx_ui_backend.md",
+      "summary": "<h1 id=\"firefxuibackenddesign\">FireFX UI Backend Design</h1> The way that the UI maps to the FireFX script will be through code injection where the user can select blocks which map to code blocks t...",
+      "keywords": [
+        "firefx",
+        "backend",
+        "emitter",
+        "screen",
+        "control"
+      ]
+    },
+    {
+      "id": "firefx_understanding_firefx_scripts",
+      "title": "Understanding FireFX Scripts",
+      "category": "FireFX",
+      "file_path": "topics/firefx_understanding_firefx_scripts.md",
+      "summary": "<h1 id=\"understandingfirefxscripts\">Understanding FireFX Scripts</h1> FireFX is a language for expressing the motion and rendering of particles, or particlelike things.  The language is based heavi...",
+      "keywords": [
+        "understanding",
+        "firefx",
+        "scripts",
+        "lua",
+        "emitter",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_debug_features",
+      "title": "Debug Features",
+      "category": "Forge UI",
+      "file_path": "topics/forge_ui_debug_features.md",
+      "summary": "UI Debug Features Friday, December 19, 2014 11:20 Debug XML Attribute All controls derive from <Container> in code this is \"ControlBase\" and on <Container> is a special attribute: \"d\", which stands...",
+      "keywords": [
+        "debug",
+        "features",
+        "forge",
+        "xml",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_lua_conventions",
+      "title": "LUA Conventions",
+      "category": "Forge UI",
+      "file_path": "topics/forge_ui_lua_conventions.md",
+      "summary": "LUA Conventions The below conventions are highly recommended to those writing LUA script which are for Forge.  Use Havokscript type qualifiers Havokscript offers an extension to LUA where variables...",
+      "keywords": [
+        "conventions",
+        "forge",
+        "blp",
+        "lua",
+        "xml",
+        "texture",
+        "screen",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "forge_ui_lua_input",
+      "title": "LUA Input",
+      "category": "Forge UI",
+      "file_path": "topics/forge_ui_lua_input.md",
+      "summary": "LUA Input Wednesday, April 08, 2015 9:53 To receive input in a LUA context, set a function to be a callback handler.  The handler function should return true if the input was handled.",
+      "keywords": [
+        "input",
+        "forge",
+        "lua",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_lua_reference",
+      "title": "LUA Reference",
+      "category": "Forge UI",
+      "file_path": "topics/forge_ui_lua_reference.md",
+      "summary": "LUA Reference Wednesday, October 08, 2014 3:12 PM Common attributes of a control can be changed and edited during runtime using specific methods in LUA.  For example, changing the size of a window,...",
+      "keywords": [
+        "reference",
+        "forge",
+        "lua",
+        "screen",
+        "icon",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_reference_guide",
+      "title": "Reference Guide",
+      "category": "Forge UI",
+      "file_path": "topics/forge_ui_reference_guide.md",
+      "summary": "Reference Guide Madrid Exported on Jul 26, 2017 <h1 id=\"controls\">Controls</h1> A 'Control' is the smallest discrete UI component, such as a button or a text box.  ForgeUI has the following control...",
+      "keywords": [
+        "reference",
+        "guide",
+        "forge",
+        "lua",
+        "xml",
+        "animation",
+        "texture",
+        "screen",
+        "control",
+        "layout"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_alphaanim",
+      "title": "AlphaAnim",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_alphaanim.md",
+      "summary": "<AlphaAnim> Friday, February 21, 2014 3:04 PM Used to animate the alpha value of the control and all of its children.  AlphaBegin Alpha value to start at float: 0.",
+      "keywords": [
+        "alphaanim",
+        "forge",
+        "controls",
+        "lua",
+        "animation",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_bar",
+      "title": "Bar",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_bar.md",
+      "summary": "<Bar> Friday, February 21, 2014 3:05 PM Progress bar control made of a solid color.  For a bitmapped version see: <TextureBar> XML Attribute Type Details FGColor String The red, green, blue and opt...",
+      "keywords": [
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "animation",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_box",
+      "title": "Box",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_box.md",
+      "summary": "<Box> Friday, February 21, 2014 2:21 PM Box of solid color.  Also <ColorBox> but that is deprecated.",
+      "keywords": [
+        "forge",
+        "controls",
+        "lua",
+        "xml"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_boxbutton",
+      "title": "BoxButton",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_boxbutton.md",
+      "summary": "<BoxButton> Friday, February 21, 2014 4:49 PM Button control which is a rectangle of color only.",
+      "keywords": [
+        "boxbutton",
+        "forge",
+        "controls",
+        "xml",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_button",
+      "title": "Button",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_button.md",
+      "summary": "<Button> Friday, February 21, 2014 4:43 PM Simple button control using a texture map.  When the button state changes, we offset vertically down the texture according to the StateOffsetIncrement val...",
+      "keywords": [
+        "button",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_checkbox",
+      "title": "CheckBox",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_checkbox.md",
+      "summary": "<CheckBox> Friday, February 21, 2014 4:58 PM The check box control consists of a normal button with an overlaid CheckTexture and a text button label which can be clicked.  The size and position con...",
+      "keywords": [
+        "checkbox",
+        "forge",
+        "controls",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_container",
+      "title": "Container",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_container.md",
+      "summary": "<Container> Friday, February 21, 2014 1:50 PM The <Container> is the most basic control in the system.  All other controls extend this and so all of these tags are usable on all other controls.",
+      "keywords": [
+        "container",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "animation",
+        "screen",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_context",
+      "title": "Context",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_context.md",
+      "summary": "<Context> Friday, February 21, 2014 5:08 PM Control to load a new . XML file of controls.",
+      "keywords": [
+        "context",
+        "forge",
+        "controls",
+        "xml",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_dragpanel",
+      "title": "DragPanel",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_dragpanel.md",
+      "summary": "<DragPanel> Friday, February 21, 2014 2:23 PM Panel that allows moving by gaining focus e. g.",
+      "keywords": [
+        "dragpanel",
+        "forge",
+        "controls",
+        "lua",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_editbox",
+      "title": "EditBox",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_editbox.md",
+      "summary": "<EditBox> Friday, February 21, 2014 2:25 PM Control for user entered text.  Attribute 5 F Details CallOnChar Y ?",
+      "keywords": [
+        "editbox",
+        "forge",
+        "controls",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_flipanim",
+      "title": "FlipAnim",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_flipanim.md",
+      "summary": "<FlipAnim> Friday, February 21, 2014 3:02 PM Flipbook animation.  Moves by steps through a texture.",
+      "keywords": [
+        "flipanim",
+        "forge",
+        "controls",
+        "lua",
+        "animation",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_grid",
+      "title": "Grid",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_grid.md",
+      "summary": "<Grid> Friday, February 21, 2014 2:27 PM Textured, 9slicable, dynamically sized control.  Attribute Details NoStateChange Flag that indicates that the texture should not be offset when used as a bu...",
+      "keywords": [
+        "grid",
+        "forge",
+        "controls",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_gridbutton",
+      "title": "GridButton",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_gridbutton.md",
+      "summary": "<GridButton> Friday, February 21, 2014 2:33 PM A Button control which uses a Grid to allow the size to be flexible, and may contain an optional text field.  Grid specific data is specified by a sub...",
+      "keywords": [
+        "gridbutton",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_image",
+      "title": "Image",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_image.md",
+      "summary": "<Image> Friday, February 21, 2014 2:35 PM The <Image> control is used to display a texture.  XML Attribute Details ColorSpace default: \"RGB\", \"Linear\" Set this to \"linear\" if rendering a linear tex...",
+      "keywords": [
+        "image",
+        "forge",
+        "controls",
+        "xml",
+        "texture",
+        "icon",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_include",
+      "title": "Include",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_include.md",
+      "summary": "<Include> Tuesday, July 25, 2017 5:22 PM Includes the contents of an xml file into the existing context.  It's mostly used to include instances shared by multiple contexts.",
+      "keywords": [
+        "include",
+        "forge",
+        "controls",
+        "xml"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_instance",
+      "title": "Instance",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_instance.md",
+      "summary": "<Instance> Tuesday, July 25, 2017 5:22 PM Defines a collection of controls that can be created either using the <MakeInstance> tag or by calling ContextPtr:BuildInstanceForControl Example: <Instanc...",
+      "keywords": [
+        "instance",
+        "forge",
+        "controls",
+        "lua",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_label",
+      "title": "Label",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_label.md",
+      "summary": "<Label> Friday, February 21, 2014 2:42 PM The internal “TextControl” which is used to display text.  Its size will automatically be calculated to the bounds of the text string, and should not be se...",
+      "keywords": [
+        "label",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_line",
+      "title": "Line",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_line.md",
+      "summary": "<Line> Friday, February 21, 2014 2:45 PM Draw a line with a solid stroke Attribute Details Color RGBA for the color and alpha of line.  End Ending point for the line.",
+      "keywords": [
+        "line",
+        "forge",
+        "controls"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_luacontext",
+      "title": "LuaContext",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_luacontext.md",
+      "summary": "<LuaContext> Tuesday, March 04, 2014 4:48 PM Control to load a new . XML file of controls that is backed by a .",
+      "keywords": [
+        "luacontext",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "screen",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_makeinstance",
+      "title": "MakeInstance",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_makeinstance.md",
+      "summary": "<MakeInstance> Friday, February 21, 2014 2:35 PM Immediately creates an instance of an object; similar to calling ContextPtr:BuildInstanceForControl.  You can define how to access the instance with...",
+      "keywords": [
+        "makeinstance",
+        "forge",
+        "controls",
+        "lua",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_meter",
+      "title": "Meter",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_meter.md",
+      "summary": "<Meter> Friday, February 21, 2014 4:17 PM Rotational progress meter.  XML Attribute Type Details Color String The red, green, blue and optional alpha values to apply to the meter texture.",
+      "keywords": [
+        "meter",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "animation",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_movie",
+      "title": "Movie",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_movie.md",
+      "summary": "<Movie> Friday, February 21, 2014 2:35 PM The <Movie> control formally part of Image is used to display a movie texture.  XML Attribute Details FlipX Horizontally flip the image FlipY Vertically fl...",
+      "keywords": [
+        "movie",
+        "forge",
+        "controls",
+        "xml",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_pulldown",
+      "title": "PullDown",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_pulldown.md",
+      "summary": "<PullDown> Friday, February 21, 2014 5:06 PM Control for selecting one from a list of possible items aka: combo box XML Attribute Details AutoFlip Automatically flips the grid of the pulldown to be...",
+      "keywords": [
+        "pulldown",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "screen",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_radiobutton",
+      "title": "RadioButton",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_radiobutton.md",
+      "summary": "<RadioButton> Friday, February 21, 2014 5:01 PM A RadioButton control is very similar to the CheckBox and shares a lot of the same properties.  A RadioButton is used when the selected state is mutu...",
+      "keywords": [
+        "radiobutton",
+        "forge",
+        "controls",
+        "xml",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_scrollanim",
+      "title": "ScrollAnim",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_scrollanim.md",
+      "summary": "<ScrollAnim> Friday, February 21, 2014 3:02 PM Animation which smoothly slides a texture offset Texture Filename of the animated texture MaskTexture Filename of a texture to use as a mask For addit...",
+      "keywords": [
+        "scrollanim",
+        "forge",
+        "controls",
+        "lua",
+        "animation",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_scrollpanel",
+      "title": "ScrollPanel",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_scrollpanel.md",
+      "summary": "<ScrollPanel> Friday, February 21, 2014 5:04 PM The scroll panel has a large panel with a smaller viewport into that space.  AutoScrollBar Flag to indicate that we should automatically hide the scr...",
+      "keywords": [
+        "scrollpanel",
+        "forge",
+        "controls",
+        "lua",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_simplepulldown",
+      "title": "SimplePullDown",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_simplepulldown.md",
+      "summary": "<SimplePullDown> Wednesday, May 18, 2016 2:33 PM Simplified version of <PullDown> or \"drop down box\" control.  XML Configuration is identical to <PullDown> except for one additional attribute docum...",
+      "keywords": [
+        "simplepulldown",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_slideanim",
+      "title": "SlideAnim",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_slideanim.md",
+      "summary": "<SlideAnim> Friday, February 21, 2014 3:03 PM Moves a control in screen space between two offset values.",
+      "keywords": [
+        "slideanim",
+        "forge",
+        "controls",
+        "lua",
+        "animation",
+        "screen",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_slider",
+      "title": "Slider",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_slider.md",
+      "summary": "<Slider> Friday, February 21, 2014 5:03 PM The slider control is used for both picking a value along a spectrum volume slider and as the scroll bar for scroll panels.  The background is built from ...",
+      "keywords": [
+        "slider",
+        "forge",
+        "controls",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_stack",
+      "title": "Stack",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_stack.md",
+      "summary": "<Stack> Friday, February 21, 2014 2:47 PM The Stack is used to arrange children into a line, or a grid.  If the children change sizes, their positions will be adjusted correctly, but the Stack itse...",
+      "keywords": [
+        "stack",
+        "forge",
+        "controls",
+        "control",
+        "layout"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_tabcontrol",
+      "title": "TabControl",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_tabcontrol.md",
+      "summary": "<TabControl> Wednesday, May 18, 2016 3:08 PM Supports tab pages with buttons to switch between them.  The visual style of the buttons and tab pages is extremely open ended.",
+      "keywords": [
+        "tabcontrol",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_textbutton",
+      "title": "TextButton",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_textbutton.md",
+      "summary": "<TextButton> Friday, February 21, 2014 4:49 PM Button control which is text only.  The color and style can be specified for each button state.",
+      "keywords": [
+        "textbutton",
+        "forge",
+        "controls",
+        "xml",
+        "screen",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_texturebar",
+      "title": "TextureBar",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_texturebar.md",
+      "summary": "<TextureBar> Friday, February 21, 2014 3:12 PM Progress bar control made of a texture.  XML Attribute Type Details Color String The red, green, blue and optional alpha values to apply to the meter ...",
+      "keywords": [
+        "texturebar",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "animation",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_tooltiptype",
+      "title": "ToolTipType",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_tooltiptype.md",
+      "summary": "<ToolTipType> Friday, February 21, 2014 2:21 PM Defines a custom tool tip that overrides the default tool tip.  XML Attribute Type Details Name String The tool tip instance name used by other compo...",
+      "keywords": [
+        "tooltiptype",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "texture",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "forge_ui_controls_tutorial",
+      "title": "Tutorial",
+      "category": "Forge UI Controls",
+      "file_path": "topics/forge_ui_controls_tutorial.md",
+      "summary": "<Tutorial> Friday, February 21, 2014 2:21 PM Starts a section of controls that are triggered to be shown/hidden based on the tutorial system.  XML Attribute Type Details AlwaysShow Bool Debug attri...",
+      "keywords": [
+        "tutorial",
+        "forge",
+        "controls",
+        "lua",
+        "xml",
+        "control"
+      ]
+    },
+    {
+      "id": "modding_guides_2d_leader_background_mods",
+      "title": "2D Leader Background Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_2d_leader_background_mods.md",
+      "summary": "See: Texture System Mods#Modding%5CTexture%20System%20Mods.  Replace %XLPCLASS% with LeaderFallback.",
+      "keywords": [
+        "leader",
+        "background",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "blp",
+        "xlp",
+        "animation",
+        "texture"
+      ]
+    },
+    {
+      "id": "modding_guides_add_and_update_consumers_in_mod_art_file",
+      "title": "Add and Update Consumers in Mod Art File",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_add_and_update_consumers_in_mod_art_file.md",
+      "summary": "1.  Open the Mod Art File that has been created for the mod.",
+      "keywords": [
+        "update",
+        "consumers",
+        "file",
+        "modding",
+        "guides",
+        "artdef",
+        "xml"
+      ]
+    },
+    {
+      "id": "modding_guides_add_and_update_libraries_in_mod_art_file",
+      "title": "Add and Update Libraries in Mod Art File",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_add_and_update_libraries_in_mod_art_file.md",
+      "summary": "1.  Open the Mod Art File that has been created for the mod.",
+      "keywords": [
+        "update",
+        "libraries",
+        "file",
+        "modding",
+        "guides",
+        "xlp",
+        "xml"
+      ]
+    },
+    {
+      "id": "modding_guides_adding_new_screens",
+      "title": "Adding New Screens",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_adding_new_screens.md",
+      "summary": "In Civ 6, screens are referred to as LuaContexts.  LuaContexts are made up of two separate files: 1.",
+      "keywords": [
+        "adding",
+        "screens",
+        "modding",
+        "guides",
+        "lua",
+        "xml",
+        "screen",
+        "control",
+        "layout",
+        "reference"
+      ]
+    },
+    {
+      "id": "modding_guides_adding_or_modifying_icons",
+      "title": "Adding or Modifying Icons",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_adding_or_modifying_icons.md",
+      "summary": "// TODO",
+      "keywords": [
+        "adding",
+        "modifying",
+        "icons",
+        "modding",
+        "guides"
+      ]
+    },
+    {
+      "id": "modding_guides_colorkey_mods",
+      "title": "ColorKey Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_colorkey_mods.md",
+      "summary": "Note about ColorKey Source Files: Our ColorKey textures are 3D textures, with a resolution of 64 x 64 x 64.  This is typically represented by a 2048 x 128 texture band.",
+      "keywords": [
+        "colorkey",
+        "mods",
+        "modding",
+        "guides",
+        "xlp",
+        "texture"
+      ]
+    },
+    {
+      "id": "modding_guides_cooking_art_files",
+      "title": "Cooking Art Files",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_cooking_art_files.md",
+      "summary": "1.  Open up the AssetCloud.",
+      "keywords": [
+        "cooking",
+        "files",
+        "modding",
+        "guides"
+      ]
+    },
+    {
+      "id": "modding_guides_firefx_builtin_functions",
+      "title": "FireFX Built-In Functions",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_firefx_builtin_functions.md",
+      "summary": "Performs linear interpolation of a and b by f.  Return value is same type as a.",
+      "keywords": [
+        "firefx",
+        "builtin",
+        "functions",
+        "modding",
+        "guides",
+        "emitter"
+      ]
+    },
+    {
+      "id": "modding_guides_fog_of_war_overview",
+      "title": "Fog of War Overview",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_fog_of_war_overview.md",
+      "summary": "The Civ6 Fog of War system determines how parts of the map that have never been visible and/or are not currently visible get rendered.  By default, Civ6 uses a maplike style to render things that a...",
+      "keywords": [
+        "overview",
+        "modding",
+        "guides",
+        "artdef",
+        "texture",
+        "control"
+      ]
+    },
+    {
+      "id": "modding_guides_fow_hatch_texture_mods",
+      "title": "FoW Hatch Texture Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_fow_hatch_texture_mods.md",
+      "summary": "See: Texture System Mods#Modding%5CTexture%20System%20Mods.  Replace %XLPCLASS% with FOWTexture.",
+      "keywords": [
+        "hatch",
+        "texture",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp"
+      ]
+    },
+    {
+      "id": "modding_guides_fow_parchment_texture_mods",
+      "title": "FoW Parchment Texture Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_fow_parchment_texture_mods.md",
+      "summary": "See: Texture System Mods#Modding%5CTexture%20System%20Mods.  Replace %XLPCLASS% with FOWTexture.",
+      "keywords": [
+        "parchment",
+        "texture",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp"
+      ]
+    },
+    {
+      "id": "modding_guides_fow_sprite_texture_mods",
+      "title": "FoW Sprite Texture Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_fow_sprite_texture_mods.md",
+      "summary": "See: Texture System Mods#Modding%5CTexture%20System%20Mods.  Replace %XLPCLASS% with FOWSprite.",
+      "keywords": [
+        "sprite",
+        "texture",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp"
+      ]
+    },
+    {
+      "id": "modding_guides_halloffame_backend",
+      "title": "HallofFame_Backend",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_halloffame_backend.md",
+      "summary": "It's time to dive into the internals of the hall of fame system and how it can be modded.  Because of the length, I'm going to break this up into two posts; one for the backend and one for the fron...",
+      "keywords": [
+        "halloffame",
+        "backend",
+        "modding",
+        "guides",
+        "lua",
+        "icon",
+        "datapoint",
+        "dataset",
+        "reference"
+      ]
+    },
+    {
+      "id": "modding_guides_halloffame_frontend",
+      "title": "HallofFame_Frontend",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_halloffame_frontend.md",
+      "summary": "It’s time to dive into the internals of the hall of fame system and how it can be modded.  Because of the length, I’m going to break this up into two posts; one for the backend and one for the fron...",
+      "keywords": [
+        "halloffame",
+        "frontend",
+        "modding",
+        "guides",
+        "lua",
+        "xml",
+        "sql",
+        "icon",
+        "datapoint",
+        "dataset",
+        "reference"
+      ]
+    },
+    {
+      "id": "modding_guides_hotloading",
+      "title": "HotLoading",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_hotloading.md",
+      "summary": "Hot loading is a way to apply changes from the mod tools in real time to what you see ingame and can be a great way to make adjustments to what you're currently working on.  First, you will need to...",
+      "keywords": [
+        "hotloading",
+        "modding",
+        "guides"
+      ]
+    },
+    {
+      "id": "modding_guides_loadorder",
+      "title": "LoadOrder",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_loadorder.md",
+      "summary": "Load order in mods is a way of explicitly controlling when an action should take place.  By default, all actions have a load order of \"0\".",
+      "keywords": [
+        "loadorder",
+        "modding",
+        "guides",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "modding_guides_modifying_existing_screens",
+      "title": "Modifying Existing Screens",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_modifying_existing_screens.md",
+      "summary": "// TODO",
+      "keywords": [
+        "modifying",
+        "existing",
+        "screens",
+        "modding",
+        "guides"
+      ]
+    },
+    {
+      "id": "modding_guides_notes_shorthand",
+      "title": "Notes shorthand",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_notes_shorthand.md",
+      "summary": "The Civ VI engine and pantry makes it quite easy to create new units from existing pieces.  In this example, we are going to go through the process of creating a warrior clad in full armor that fig...",
+      "keywords": [
+        "notes",
+        "shorthand",
+        "modding",
+        "guides"
+      ]
+    },
+    {
+      "id": "modding_guides_skybox_overview",
+      "title": "SkyBox Overview",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_skybox_overview.md",
+      "summary": "The Civ6 SkyBox system determine what is drawn off the edges of the map.  It displays a single texture that has this detail in it.",
+      "keywords": [
+        "skybox",
+        "overview",
+        "modding",
+        "guides",
+        "artdef",
+        "blp",
+        "texture",
+        "reference"
+      ]
+    },
+    {
+      "id": "modding_guides_skybox_texture_mods",
+      "title": "SkyBox Texture Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_skybox_texture_mods.md",
+      "summary": "See: Texture System Mods#Modding%5CTexture%20System%20Mods.  Replace %XLPCLASS% with SkyBoxTexture.",
+      "keywords": [
+        "skybox",
+        "texture",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp"
+      ]
+    },
+    {
+      "id": "modding_guides_strategicview_building_sprite_mods",
+      "title": "StrategicView Building Sprite Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_strategicview_building_sprite_mods.md",
+      "summary": "See: Texture System Mods#Modding%5CTexture%20System%20Mods.  Replace %XLPCLASS% with StrategicViewSprite.",
+      "keywords": [
+        "strategicview",
+        "building",
+        "sprite",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp",
+        "texture"
+      ]
+    },
+    {
+      "id": "modding_guides_strategicview_natural_wonder_sprite_mods",
+      "title": "StrategicView Natural Wonder Sprite Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_strategicview_natural_wonder_sprite_mods.md",
+      "summary": "StrategicView Terrain Feature Sprites include elements that occur naturally in the world.  This includes, forest, rainforest/jungles, ice, marshes, oasis tiles, floodplains, and all Natural Wonders.",
+      "keywords": [
+        "strategicview",
+        "natural",
+        "wonder",
+        "sprite",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp",
+        "texture"
+      ]
+    },
+    {
+      "id": "modding_guides_strategicview_overview",
+      "title": "StrategicView Overview",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_strategicview_overview.md",
+      "summary": "The StrategicView provides a 2D visualization of the map in a Civ game.  Numerous aspects of its visuals can be modified by changing the StrategicView.",
+      "keywords": [
+        "strategicview",
+        "overview",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp",
+        "lua",
+        "animation",
+        "texture",
+        "reference"
+      ]
+    },
+    {
+      "id": "modding_guides_texture_system_mods",
+      "title": "Texture System Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_texture_system_mods.md",
+      "summary": "1.  Open Asset Editor.",
+      "keywords": [
+        "texture",
+        "system",
+        "mods",
+        "modding",
+        "guides",
+        "xlp"
+      ]
+    },
+    {
+      "id": "modding_guides_understanding_modinfo_files",
+      "title": "Understanding modinfo files",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_understanding_modinfo_files.md",
+      "summary": "// TODO",
+      "keywords": [
+        "understanding",
+        "modinfo",
+        "files",
+        "modding",
+        "guides"
+      ]
+    },
+    {
+      "id": "modding_guides_unit_mods",
+      "title": "Unit Mods",
+      "category": "Modding Guides",
+      "file_path": "topics/modding_guides_unit_mods.md",
+      "summary": "Unit system...  unit system...",
+      "keywords": [
+        "unit",
+        "mods",
+        "modding",
+        "guides",
+        "artdef",
+        "xlp",
+        "xml",
+        "animation",
+        "texture"
+      ]
+    },
+    {
+      "id": "readme",
+      "title": "Getting Started with SDK",
+      "category": "General Info",
+      "file_path": "topics/readme.md",
+      "summary": "Go herehttps://htmlpreview. github.",
+      "keywords": [
+        "getting",
+        "started",
+        "with",
+        "general",
+        "info",
+        "modbuddy",
+        "firetuner",
+        "xml",
+        "reference"
+      ]
+    },
+    {
+      "id": "loadorder",
+      "title": "Mod Load Order",
+      "category": "Modding Guides",
+      "file_path": "topics/loadorder.md",
+      "summary": "Load order in mods is a way of explicitly controlling when an action should take place.  By default, all actions have a load order of \"0\".",
+      "keywords": [
+        "load",
+        "order",
+        "modding",
+        "guides",
+        "control",
+        "reference"
+      ]
+    },
+    {
+      "id": "halloffame_backend",
+      "title": "Hall of Fame (Back-end)",
+      "category": "Modding Guides",
+      "file_path": "topics/halloffame_backend.md",
+      "summary": "Before diving in, I'd like to explain object references and type references.  There are plenty of times when data needs to be associated with more than just a game or even a player.",
+      "keywords": [
+        "hall",
+        "fame",
+        "backend",
+        "modding",
+        "guides",
+        "lua",
+        "icon",
+        "datapoint",
+        "dataset",
+        "reference"
+      ]
+    },
+    {
+      "id": "halloffame_frontend",
+      "title": "Hall of Fame (Front-end)",
+      "category": "Modding Guides",
+      "file_path": "topics/halloffame_frontend.md",
+      "summary": "Before diving in, I’d like to explain object references and type references.  There are plenty of times when data needs to be associated with more than just a game or even a player.",
+      "keywords": [
+        "hall",
+        "fame",
+        "frontend",
+        "modding",
+        "guides",
+        "xml",
+        "sql",
+        "icon",
+        "datapoint",
+        "dataset",
+        "reference"
+      ]
+    }
+  ]
+}

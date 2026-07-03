@@ -1,0 +1,35 @@
+# Avoid uploading local environment configurations with absolute paths
+.env
+
+# Avoid uploading massive decompiled game sources and extracted assets
+decompiled_sources/
+main.exe_extracted/
+
+# Exclude generated output mods
+output/
+*.zip
+*.rar
+*.7z
+
+# Python build artifacts and caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Agent runtime logs and artifacts
+.gemini/
+brain/
+scratch/
+task.md
+implementation_plan.md
+walkthrough.md
+kaggle_submission_draft.md
