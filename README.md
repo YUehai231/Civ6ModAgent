@@ -9,6 +9,9 @@
 
 *Special thanks to **Hemmelfort** for their invaluable video tutorials, modding software, and documentation.*
 
+**Current Progress:**
+- Implementing simple unit tests
+- Currently testing the building system
 ---
 
 ### 中文版本
@@ -18,6 +21,9 @@
 
 *特别鸣谢：**Hemmelfort**，感谢他提供的教学视频、开发软件和权威文档支持。*
 
+**目前进度:**
+- 实现简单的Unit的编写
+- 正在进行Building的测试
 ---
 
 ## 🛠️ Integrated Skills & Tools / 已集成工具与技能
