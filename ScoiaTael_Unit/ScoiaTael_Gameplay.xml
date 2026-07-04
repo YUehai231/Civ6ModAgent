@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameInfo>
+    <Types>
+        <Row Type="UNIT_SCOIA_TAEL" Kind="KIND_UNIT" />
+    </Types>
+    <Units>
+        <Row UnitType="UNIT_SCOIA_TAEL" Cost="30" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="10" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_SCOIA_TAEL_NAME" Description="LOC_UNIT_SCOIA_TAEL_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" RangedCombat="15" Range="2" />
+    </Units>
+    <UnitAiInfos>
+        <Row UnitType="UNIT_SCOIA_TAEL" AiType="UNITAI_EXPLORE" />
+        <Row UnitType="UNIT_SCOIA_TAEL" AiType="UNITTYPE_LAND_COMBAT" />
+    </UnitAiInfos>
+    <TypeTags>
+        <Row Type="UNIT_SCOIA_TAEL" Tag="CLASS_RECON" />
+        <Row Type="UNIT_SCOIA_TAEL" Tag="CLASS_REVEAL_STEALTH" />
+    </TypeTags>
+    <UnitUpgrades>
+        <Row Unit="UNIT_SCOIA_TAEL" UpgradeUnit="UNIT_RANGER" />
+    </UnitUpgrades>
+</GameInfo>

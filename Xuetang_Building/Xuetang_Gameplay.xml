@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameInfo>
+    <Types>
+        <Row Type="BUILDING_XUETANG" Kind="KIND_BUILDING" />
+    </Types>
+    <Buildings>
+        <Row BuildingType="BUILDING_XUETANG" Name="LOC_BUILDING_XUETANG_NAME" PrereqTech="TECH_WRITING" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="1" CitizenSlots="1" Description="LOC_BUILDING_XUETANG_DESCRIPTION" Housing="1" />
+    </Buildings>
+    <Building_YieldChanges>
+        <Row BuildingType="BUILDING_XUETANG" YieldType="YIELD_SCIENCE" YieldChange="2" />
+        <Row BuildingType="BUILDING_XUETANG" YieldType="YIELD_FOOD" YieldChange="2" />
+    </Building_YieldChanges>
+    <BuildingReplaces>
+        <Row CivUniqueBuildingType="BUILDING_XUETANG" ReplacesBuildingType="BUILDING_LIBRARY" />
+    </BuildingReplaces>
+    <Building_GreatPersonPoints>
+        <Row BuildingType="BUILDING_XUETANG" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1" />
+    </Building_GreatPersonPoints>
+</GameInfo>

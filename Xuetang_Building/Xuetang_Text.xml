@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_BUILDING_XUETANG_NAME" Language="en_US">
+            <Text>Xuetang</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_XUETANG_NAME" Language="zh_Hans_CN">
+            <Text>学堂</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_XUETANG_DESCRIPTION" Language="en_US">
+            <Text>A unique replacement for the Library that provides food and housing.</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_XUETANG_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>替代图书馆的特色建筑，提供额外的食物与住房。</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

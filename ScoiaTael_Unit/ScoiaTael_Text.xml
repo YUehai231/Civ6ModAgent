@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_UNIT_SCOIA_TAEL_NAME" Language="en_US">
+            <Text>Scoia'tael</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_SCOIA_TAEL_NAME" Language="zh_Hans_CN">
+            <Text>松鼠党</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_SCOIA_TAEL_DESCRIPTION" Language="en_US">
+            <Text>A unique recon unit with ranged capabilities.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_SCOIA_TAEL_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>具有远程攻击能力的特色侦察单位。</Text>
+        </Row>
+    </LocalizedText>
+</GameData>
